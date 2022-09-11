@@ -1,16 +1,49 @@
+.Halamansurat{
+  background-color: #222831;
+ 
+}
+ 
+ 
+ 
+ 
+ .Card{
+ 
+  @media screen and (max-width:680px){
 
+    #maincontent{
+      width: auto;
+      float: none;
+    }
+    #sidebar{
+      width: auto;
+      float: none;
+    }
+  }
+ }
 
-.Card{
-  margin-top: 10px;
-  max-width: auto;
-  min-width: auto;
+  
+
+.Cardsurat {
+  transition: transform .10s; /* Animation */
+  width: 100pxpx;
+  margin-top: 20px;
+ 
 }
 
+.Cardsurat:hover {
+  /* transform: scale(0.9);  */
+  padding: 10px;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  box-shadow: 2px 2px 2px 2px white;
+}
+
+
+
 .Header{
+
   max-width: 100%;
   min-width: auto;
   width: 200px;
-  margin-top: 0px;
+  margin-top: -10px;
   margin-bottom: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -19,6 +52,9 @@
 }
 
 .Booksmark{
+
+  
+
   width: 20px;
   max-width: auto;
   margin-left: 1090px;
@@ -34,20 +70,21 @@
 .NomorSurat{
   font-size: small;
   text-align: left;
-  
 }
 
  .JumlahAyat{
   text-align: left;
   font-size: small;
- 
-   
-   
  }
 
- .Card{
-  margin-top: 5px;
-  margin-bottom: 3px;
+
+
+
+
+ 
+ .Container1{
+  
+  
   @media screen and (max-width:680px){
 
     #maincontent{
@@ -61,20 +98,12 @@
   }
  }
 
- 
  .Container{
-  @media screen and (max-width:680px){
-
-    #maincontent{
-      width: auto;
-      float: none;
-    }
-    #sidebar{
-      width: auto;
-      float: none;
-    }
-  }
+  margin-bottom: 200px;
+  margin-top: 100px;
  }
 
+
+ 
 
 
